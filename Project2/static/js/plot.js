@@ -48,6 +48,7 @@ function buildPlot() {
         var lowPrices = unpack(data.dataset.data, 3);
         var closingPrices = unpack(data.dataset.data, 4);
 
+        // line Trace from DJI
         var trace1 = {
             type: "scatter",
             mode: "lines",
@@ -59,14 +60,11 @@ function buildPlot() {
             }
         };
 
-        // Candlestick Trace
+        // bar Trace from Covid-19
         var trace2 = {
-            type: "candlestick",
+            type: "bar",
             x: dates,
-            high: highPrices,
-            low: lowPrices,
-            open: openingPrices,
-            close: closingPrices
+            y: cases,
         };
 
         var data = [trace1, trace2];

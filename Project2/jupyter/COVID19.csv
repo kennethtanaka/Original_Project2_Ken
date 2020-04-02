@@ -1,227 +1,229 @@
 id,Country,Slug,NewConfirmed,TotalConfirmed,NewDeaths,TotalDeaths,NewRecovered,TotalRecovered
 0,,,0,0,0,0,0,0
 1, Azerbaijan,-azerbaijan,0,0,0,0,0,0
-2,Afghanistan,afghanistan,50,170,0,4,0,2
-3,Albania,albania,11,223,1,11,11,44
-4,Algeria,algeria,73,584,4,35,6,37
-5,Andorra,andorra,36,370,2,8,9,10
-6,Angola,angola,0,7,0,2,0,0
+2,Afghanistan,afghanistan,4,174,0,4,3,5
+3,Albania,albania,20,243,4,15,8,52
+4,Algeria,algeria,132,716,9,44,9,46
+5,Andorra,andorra,6,376,4,12,0,10
+6,Angola,angola,0,7,0,2,1,1
 7,Antigua and Barbuda,antigua-and-barbuda,0,7,0,0,0,0
-8,Argentina,argentina,75,820,4,23,156,228
-9,Armenia,armenia,58,482,0,3,0,30
+8,Argentina,argentina,234,1054,4,27,12,240
+9,Armenia,armenia,50,532,0,3,0,30
 10,Aruba,aruba,0,4,0,0,0,0
-11,Australia,australia,377,4361,1,17,13,257
-12,Austria,austria,830,9618,22,108,157,636
-13,Azerbaijan,azerbaijan,64,273,0,4,11,26
-14,Bahamas,bahamas,3,14,0,0,0,1
+11,Australia,australia,198,4559,1,18,101,358
+12,Austria,austria,562,10180,20,128,459,1095
+13,Azerbaijan,azerbaijan,25,298,1,5,0,26
+14,Bahamas,bahamas,0,14,0,0,0,1
 15,"Bahamas, The",bahamas-the,0,4,0,0,0,0
-16,Bahrain,bahrain,16,515,0,4,7,279
-17,Bangladesh,bangladesh,1,49,0,5,4,19
-18,Barbados,barbados,0,33,0,0,0,0
-19,Belarus,belarus,58,152,0,0,0,32
-20,Belgium,belgium,1063,11899,82,513,168,1527
-21,Belize,belize,1,3,0,0,0,0
-22,Benin,benin,0,6,0,0,0,0
+16,Bahrain,bahrain,52,567,0,4,16,295
+17,Bangladesh,bangladesh,2,51,0,5,6,25
+18,Barbados,barbados,1,34,0,0,0,0
+19,Belarus,belarus,0,152,1,1,15,47
+20,Belgium,belgium,876,12775,192,705,169,1696
+21,Belize,belize,0,3,0,0,0,0
+22,Benin,benin,3,9,0,0,1,1
 23,Bhutan,bhutan,0,4,0,0,0,0
-24,Bolivia,bolivia,16,97,3,4,0,0
-25,Bosnia and Herzegovina,bosnia-and-herzegovina,45,368,4,10,9,17
+24,Bolivia,bolivia,10,107,2,6,0,0
+25,Bosnia and Herzegovina,bosnia-and-herzegovina,52,420,3,13,0,17
 26,Botswana,botswana,0,0,0,0,0,0
-27,Brazil,brazil,323,4579,23,159,114,120
-28,Brunei,brunei,1,127,0,1,4,38
-29,Bulgaria,bulgaria,13,359,0,8,3,17
-30,Burkina Faso,burkina-faso,24,246,0,12,8,31
-31,Burma,burma,4,14,0,0,0,0
-32,Cabo Verde,cabo-verde,0,6,0,1,0,0
-33,Cambodia,cambodia,4,107,0,0,0,21
-34,Cameroon,cameroon,0,139,0,6,0,5
-35,Canada,canada,1118,7398,16,80,0,466
-36,Cape Verde,cape-verde,0,0,0,0,0,0
-37,Cayman Islands,cayman-islands,0,1,0,0,0,0
-38,Central African Republic,central-african-republic,0,3,0,0,0,0
-39,Chad,chad,2,5,0,0,0,0
-40,Channel Islands,channel-islands,0,0,0,0,0,0
-41,Chile,chile,310,2449,1,8,81,156
-42,China,china,76,82198,4,3308,341,75923
-43,Colombia,colombia,96,798,2,12,5,15
-44,Congo (Brazzaville),congo-(brazzaville),0,19,0,0,0,0
-45,Congo (Kinshasa),congo-(kinshasa),16,81,2,8,0,2
-46,Costa Rica,costa-rica,16,330,0,2,1,4
-47,Cote d'Ivoire,cote-divoire,3,168,0,1,2,6
-48,Croatia,croatia,77,790,0,6,15,67
-49,Cruise Ship,cruise-ship,0,712,0,8,242,567
-50,Cuba,cuba,31,170,1,4,0,4
-51,Curacao,curacao,0,0,0,0,0,0
-52,Cyprus,cyprus,16,230,2,7,7,22
-53,Czechia,czechia,184,3001,7,23,14,25
-54,Denmark,denmark,191,2755,5,77,0,73
-55,Diamond Princess,diamond-princess,0,712,0,10,0,603
-56,Djibouti,djibouti,0,18,0,0,0,0
-57,Dominica,dominica,0,11,0,0,0,0
-58,Dominican Republic,dominican-republic,42,901,3,42,1,4
-59,East Timor,east-timor,0,0,0,0,0,0
-60,Ecuador,ecuador,38,1962,2,60,0,3
-61,Egypt,egypt,47,656,1,41,18,150
-62,El Salvador,el-salvador,6,30,0,0,0,0
-63,Equatorial Guinea,equatorial-guinea,0,12,0,0,0,0
-64,Eritrea,eritrea,0,12,0,0,0,0
-65,Estonia,estonia,36,715,0,3,0,20
-66,Eswatini,eswatini,0,9,0,0,0,0
-67,Ethiopia,ethiopia,2,23,0,0,3,4
-68,Faroe Islands,faroe-islands,0,2,0,0,0,0
-69,Fiji,fiji,0,5,0,0,0,0
-70,Finland,finland,112,1352,2,13,0,10
-71,France,france,4462,45170,419,3030,738,7964
-72,French Guiana,french-guiana,0,18,0,0,0,6
-73,Gabon,gabon,0,7,0,1,0,0
-74,Gambia,gambia,0,4,0,1,0,0
-75,"Gambia, The",gambia-the,0,1,0,0,0,0
-76,Georgia,georgia,12,103,0,0,2,20
-77,Germany,germany,4790,66885,112,645,4289,13500
-78,Ghana,ghana,0,152,0,5,0,2
-79,Gibraltar,gibraltar,0,1,0,0,1,1
-80,Greece,greece,56,1212,5,43,0,52
-81,Greenland,greenland,0,0,0,0,0,0
-82,Grenada,grenada,0,9,0,0,0,0
-83,Guadeloupe,guadeloupe,3,56,0,0,0,0
-84,Guam,guam,0,0,1,1,0,0
-85,Guatemala,guatemala,2,36,0,1,0,10
-86,Guernsey,guernsey,0,0,0,0,0,0
-87,Guinea,guinea,6,22,0,0,0,0
-88,Guinea-Bissau,guinea-bissau,6,8,0,0,0,0
-89,Guyana,guyana,0,8,0,1,0,0
-90,Haiti,haiti,0,15,0,0,0,1
-91,Holy See,holy-see,0,6,0,0,0,0
-92,Honduras,honduras,29,139,4,7,0,3
-93,Hong Kong,hong-kong,1,115,0,3,1,59
-94,Hong Kong SAR,hong-kong-sar,0,0,0,0,0,0
-95,Hungary,hungary,39,447,2,15,0,34
-96,Iceland,iceland,66,1086,0,2,22,157
-97,India,india,227,1251,5,32,7,102
-98,Indonesia,indonesia,129,1414,8,122,11,75
-99,Iran,iran,3186,41495,117,2757,1520,13911
-100,Iran (Islamic Republic of),iran,3186,41495,117,2757,1520,13911
-101,Iraq,iraq,83,630,4,46,9,152
-102,Ireland,ireland,295,2910,8,54,0,5
-103,Israel,israel,448,4695,1,16,29,161
-104,Italy,italy,4050,101739,812,11591,1590,14620
-105,Ivory Coast,ivory-coast,0,0,0,0,0,0
-106,Jamaica,jamaica,4,36,0,1,0,2
-107,Japan,japan,0,1866,0,54,0,424
-108,Jersey,jersey,0,0,0,0,0,0
-109,Jordan,jordan,9,268,2,5,8,26
-110,Kazakhstan,kazakhstan,18,302,0,1,1,21
-111,Kenya,kenya,8,50,0,1,0,1
-112,"Korea, South",korea-south,78,9661,6,158,195,5228
-113,Kosovo,kosovo,0,94,0,1,0,1
-114,Kuwait,kuwait,11,266,0,0,5,72
-115,Kyrgyzstan,kyrgyzstan,10,94,0,0,3,3
-116,Laos,laos,0,8,0,0,0,0
-117,Latvia,latvia,29,376,0,0,0,1
-118,Lebanon,lebanon,8,446,1,11,5,35
-119,Liberia,liberia,0,3,0,0,0,0
-120,Libya,libya,0,8,0,0,0,0
-121,Liechtenstein,liechtenstein,6,62,0,0,0,0
-122,Lithuania,lithuania,31,491,0,7,6,7
-123,Luxembourg,luxembourg,38,1988,1,22,0,40
-124,Macao SAR,macao-sar,0,0,0,0,0,0
-125,Macau,macau,0,10,0,0,0,10
-126,Madagascar,madagascar,4,43,0,0,0,0
-127,Malaysia,malaysia,156,2626,2,37,91,479
-128,Maldives,maldives,0,17,0,0,0,13
-129,Mali,mali,7,25,1,2,0,0
-130,Malta,malta,5,156,0,0,0,2
-131,Martinique,martinique,5,37,0,1,0,0
-132,Mauritania,mauritania,0,5,1,1,0,2
-133,Mauritius,mauritius,21,128,0,3,0,0
-134,Mayotte,mayotte,4,11,0,0,0,0
-135,Mexico,mexico,145,993,4,20,31,35
-136,Moldova,moldova,35,298,0,2,13,15
-137,Monaco,monaco,3,49,0,1,0,1
-138,Mongolia,mongolia,0,12,0,0,2,2
-139,Montenegro,montenegro,6,91,0,1,0,0
-140,Morocco,morocco,77,556,7,33,2,15
-141,Mozambique,mozambique,0,8,0,0,0,0
-142,MS Zaandam,ms-zaandam,0,2,0,0,0,0
-143,Namibia,namibia,0,11,0,0,0,2
-144,Nepal,nepal,0,5,0,0,0,1
-145,Netherlands,netherlands,887,11817,93,865,0,253
-146,New Zealand,new-zealand,75,589,0,1,7,63
-147,Nicaragua,nicaragua,0,4,0,1,0,0
-148,Niger,niger,9,27,2,3,0,0
-149,Nigeria,nigeria,20,131,1,2,5,8
-150,North Ireland,north-ireland,0,0,0,0,0,0
-151,North Macedonia,north-macedonia,26,285,1,7,9,12
-152,Norway,norway,161,4445,7,32,5,12
-153,occupied Palestinian territory,occupied-palestinian-territory,0,0,0,0,0,0
-154,Oman,oman,12,179,0,0,6,29
-155,Others,others,0,696,0,6,0,40
-156,Pakistan,pakistan,120,1717,7,21,47,76
-157,Palestine,palestine,0,22,0,0,0,0
-158,Panama,panama,88,989,7,24,0,4
-159,Papua New Guinea,papua-new-guinea,0,1,0,0,0,0
-160,Paraguay,paraguay,5,64,0,3,0,1
-161,Peru,peru,98,950,6,24,37,53
-162,Philippines,philippines,128,1546,7,78,0,42
-163,Poland,poland,193,2055,9,31,0,7
-164,Portugal,portugal,446,6408,21,140,0,43
-165,Puerto Rico,puerto-rico,0,0,1,1,0,0
-166,Qatar,qatar,59,693,0,1,3,51
-167,Republic of Ireland,republic-of-ireland,0,0,0,0,0,0
-168,Republic of Korea,korea-south,78,9661,6,158,195,5228
-169,Republic of Moldova,republic-of-moldova,0,0,0,0,0,0
-170,Republic of the Congo,republic-of-the-congo,0,0,0,0,0,0
-171,Reunion,reunion,2,47,0,0,0,0
-172,Romania,romania,294,2109,22,65,3,209
-173,Russia,russia,302,1836,1,9,2,66
-174,Russian Federation,russia,302,1836,1,9,2,66
-175,Rwanda,rwanda,0,70,0,0,0,0
-176,Saint Barthelemy,saint-barthelemy,0,1,0,0,0,0
-177,Saint Kitts and Nevis,saint-kitts-and-nevis,5,7,0,0,0,0
-178,Saint Lucia,saint-lucia,0,9,0,0,0,1
-179,Saint Martin,saint-martin,0,0,0,0,0,0
-180,Saint Vincent and the Grenadines,saint-vincent-and-the-grenadines,0,1,0,0,0,1
-181,San Marino,san-marino,6,230,3,25,7,13
-182,Saudi Arabia,saudi-arabia,154,1453,0,8,49,115
-183,Senegal,senegal,20,162,0,0,0,27
-184,Serbia,serbia,44,785,3,16,0,0
-185,Seychelles,seychelles,0,8,0,0,0,0
-186,Singapore,singapore,35,879,0,3,16,228
-187,Slovakia,slovakia,22,336,0,0,5,7
-188,Slovenia,slovenia,26,756,0,11,0,10
-189,Somalia,somalia,0,3,0,0,0,0
-190,South Africa,south-africa,46,1326,1,3,0,31
-191,South Korea,korea-south,78,9661,6,158,195,5228
-192,Spain,spain,7846,87956,913,7716,2071,16780
-193,Sri Lanka,sri-lanka,5,122,1,2,4,15
-194,St. Martin,st.-martin,0,0,0,0,0,0
-195,Sudan,sudan,0,6,1,2,0,0
-196,Suriname,suriname,0,8,0,0,0,0
-197,Sweden,sweden,328,4028,36,146,0,16
-198,Switzerland,switzerland,1093,15922,59,359,228,1823
-199,Syria,syria,1,10,1,2,0,0
-200,Taipei and environs,taipei-and-environs,0,0,0,0,0,0
-201,Taiwan,taiwan,8,306,3,5,9,39
-202,Taiwan*,taiwan,8,306,3,5,9,39
-203,Tanzania,tanzania,5,19,0,0,0,1
-204,Thailand,thailand,136,1524,2,9,132,229
-205,The Bahamas,the-bahamas,0,0,0,0,0,0
-206,The Gambia,the-gambia,0,0,0,0,0,0
-207,Timor-Leste,timor-leste,0,1,0,0,0,0
-208,Togo,togo,5,30,0,1,0,1
-209,Trinidad and Tobago,trinidad-and-tobago,4,82,0,3,0,1
-210,Tunisia,tunisia,0,312,0,8,1,3
-211,Turkey,turkey,1610,10827,37,168,57,162
-212,Uganda,uganda,0,33,0,0,0,0
-213,Ukraine,ukraine,73,548,3,13,2,8
-214,United Arab Emirates,united-arab-emirates,41,611,2,5,3,61
-215,United Kingdom,united-kingdom,2673,22453,180,1411,20,171
-216,Uruguay,uruguay,6,310,0,1,0,0
-217,US,us,20921,161807,511,2978,2979,5644
-218,Uzbekistan,uzbekistan,5,149,0,2,0,7
-219,Vatican City,vatican-city,0,1,0,0,0,0
-220,Venezuela,venezuela,16,135,1,3,0,39
-221,Viet Nam,vietnam,15,203,0,0,30,55
-222,Vietnam,vietnam,15,203,0,0,30,55
-223,West Bank and Gaza,west-bank-and-gaza,7,116,0,1,0,18
-224,Zambia,zambia,6,35,0,0,0,0
-225,Zimbabwe,zimbabwe,0,7,0,1,0,0
+27,Brazil,brazil,1138,5717,42,201,7,127
+28,Brunei,brunei,2,129,0,1,7,45
+29,Bulgaria,bulgaria,40,399,0,8,0,17
+30,Burkina Faso,burkina-faso,15,261,2,14,1,32
+31,Burma,burma,1,15,1,1,0,0
+32,Burundi,burundi,0,0,0,0,0,0
+33,Cabo Verde,cabo-verde,0,6,0,1,0,0
+34,Cambodia,cambodia,2,109,0,0,2,23
+35,Cameroon,cameroon,54,193,0,6,0,5
+36,Canada,canada,1129,8527,21,101,1126,1592
+37,Cape Verde,cape-verde,0,0,0,0,0,0
+38,Cayman Islands,cayman-islands,0,1,0,0,0,0
+39,Central African Republic,central-african-republic,0,3,0,0,0,0
+40,Chad,chad,2,7,0,0,0,0
+41,Channel Islands,channel-islands,0,0,0,0,0,0
+42,Chile,chile,289,2738,4,12,0,156
+43,China,china,81,82279,1,3309,283,76206
+44,Colombia,colombia,108,906,4,16,16,31
+45,Congo (Brazzaville),congo-(brazzaville),0,19,0,0,0,0
+46,Congo (Kinshasa),congo-(kinshasa),17,98,0,8,0,2
+47,Costa Rica,costa-rica,17,347,0,2,0,4
+48,Cote d'Ivoire,cote-divoire,11,179,0,1,1,7
+49,Croatia,croatia,77,867,0,6,0,67
+50,Cruise Ship,cruise-ship,0,712,0,8,242,567
+51,Cuba,cuba,16,186,2,6,4,8
+52,Curacao,curacao,0,0,0,0,0,0
+53,Cyprus,cyprus,32,262,1,8,1,23
+54,Czechia,czechia,307,3308,8,31,20,45
+55,Denmark,denmark,284,3039,13,90,4,77
+56,Diamond Princess,diamond-princess,0,712,0,10,0,603
+57,Djibouti,djibouti,12,30,0,0,0,0
+58,Dominica,dominica,1,12,0,0,0,0
+59,Dominican Republic,dominican-republic,208,1109,9,51,1,5
+60,East Timor,east-timor,0,0,0,0,0,0
+61,Ecuador,ecuador,278,2240,15,75,51,54
+62,Egypt,egypt,54,710,5,46,7,157
+63,El Salvador,el-salvador,2,32,1,1,0,0
+64,Equatorial Guinea,equatorial-guinea,0,12,0,0,1,1
+65,Eritrea,eritrea,3,15,0,0,0,0
+66,Estonia,estonia,30,745,1,4,6,26
+67,Eswatini,eswatini,0,9,0,0,0,0
+68,Ethiopia,ethiopia,3,26,0,0,-2,2
+69,Faroe Islands,faroe-islands,0,2,0,0,0,0
+70,Fiji,fiji,0,5,0,0,0,0
+71,Finland,finland,66,1418,4,17,0,10
+72,France,france,7657,52827,502,3532,1549,9513
+73,French Guiana,french-guiana,0,18,0,0,0,6
+74,Gabon,gabon,9,16,0,1,0,0
+75,Gambia,gambia,0,4,0,1,0,0
+76,"Gambia, The",gambia-the,0,1,0,0,0,0
+77,Georgia,georgia,7,110,0,0,1,21
+78,Germany,germany,4923,71808,130,775,2600,16100
+79,Ghana,ghana,9,161,0,5,29,31
+80,Gibraltar,gibraltar,0,1,0,0,1,1
+81,Greece,greece,102,1314,6,49,0,52
+82,Greenland,greenland,0,0,0,0,0,0
+83,Grenada,grenada,0,9,0,0,0,0
+84,Guadeloupe,guadeloupe,3,56,0,0,0,0
+85,Guam,guam,0,0,1,1,0,0
+86,Guatemala,guatemala,2,38,0,1,2,12
+87,Guernsey,guernsey,0,0,0,0,0,0
+88,Guinea,guinea,0,22,0,0,0,0
+89,Guinea-Bissau,guinea-bissau,0,8,0,0,0,0
+90,Guyana,guyana,4,12,1,2,0,0
+91,Haiti,haiti,0,15,0,0,0,1
+92,Holy See,holy-see,0,6,0,0,0,0
+93,Honduras,honduras,2,141,0,7,0,3
+94,Hong Kong,hong-kong,1,115,0,3,1,59
+95,Hong Kong SAR,hong-kong-sar,0,0,0,0,0,0
+96,Hungary,hungary,45,492,1,16,3,37
+97,Iceland,iceland,49,1135,0,2,41,198
+98,India,india,146,1397,3,35,21,123
+99,Indonesia,indonesia,114,1528,14,136,6,81
+100,Iran,iran,3110,44605,141,2898,745,14656
+101,Iran (Islamic Republic of),iran,3110,44605,141,2898,745,14656
+102,Iraq,iraq,64,694,4,50,18,170
+103,Ireland,ireland,325,3235,17,71,0,5
+104,Israel,israel,663,5358,4,20,63,224
+105,Italy,italy,4053,105792,837,12428,1109,15729
+106,Ivory Coast,ivory-coast,0,0,0,0,0,0
+107,Jamaica,jamaica,0,36,0,1,0,2
+108,Japan,japan,87,1953,2,56,0,424
+109,Jersey,jersey,0,0,0,0,0,0
+110,Jordan,jordan,6,274,0,5,4,30
+111,Kazakhstan,kazakhstan,41,343,1,2,3,24
+112,Kenya,kenya,9,59,0,1,0,1
+113,"Korea, South",korea-south,125,9786,4,162,180,5408
+114,Kosovo,kosovo,18,112,0,1,5,6
+115,Kuwait,kuwait,23,289,0,0,1,73
+116,Kyrgyzstan,kyrgyzstan,13,107,0,0,0,3
+117,Laos,laos,1,9,0,0,0,0
+118,Latvia,latvia,22,398,0,0,0,1
+119,Lebanon,lebanon,24,470,1,12,2,37
+120,Liberia,liberia,0,3,0,0,0,0
+121,Libya,libya,2,10,0,0,1,1
+122,Liechtenstein,liechtenstein,6,68,0,0,0,0
+123,Lithuania,lithuania,46,537,1,8,0,7
+124,Luxembourg,luxembourg,190,2178,1,23,40,80
+125,Macao SAR,macao-sar,0,0,0,0,0,0
+126,Macau,macau,0,10,0,0,0,10
+127,Madagascar,madagascar,14,57,0,0,0,0
+128,Malaysia,malaysia,140,2766,6,43,58,537
+129,Maldives,maldives,1,18,0,0,0,13
+130,Mali,mali,3,28,0,2,0,0
+131,Malta,malta,13,169,0,0,0,2
+132,Martinique,martinique,5,37,0,1,0,0
+133,Mauritania,mauritania,1,6,0,1,0,2
+134,Mauritius,mauritius,15,143,2,5,0,0
+135,Mayotte,mayotte,4,11,0,0,0,0
+136,Mexico,mexico,101,1094,8,28,0,35
+137,Moldova,moldova,55,353,2,4,3,18
+138,Monaco,monaco,3,52,0,1,1,2
+139,Mongolia,mongolia,0,12,0,0,0,2
+140,Montenegro,montenegro,18,109,1,2,0,0
+141,Morocco,morocco,61,617,3,36,9,24
+142,Mozambique,mozambique,0,8,0,0,0,0
+143,MS Zaandam,ms-zaandam,0,2,0,0,0,0
+144,Namibia,namibia,0,11,0,0,0,2
+145,Nepal,nepal,0,5,0,0,0,1
+146,Netherlands,netherlands,850,12667,175,1040,0,253
+147,New Zealand,new-zealand,58,647,0,1,11,74
+148,Nicaragua,nicaragua,1,5,0,1,0,0
+149,Niger,niger,0,27,0,3,0,0
+150,Nigeria,nigeria,4,135,0,2,0,8
+151,North Ireland,north-ireland,0,0,0,0,0,0
+152,North Macedonia,north-macedonia,44,329,2,9,0,12
+153,Norway,norway,196,4641,7,39,1,13
+154,occupied Palestinian territory,occupied-palestinian-territory,0,0,0,0,0,0
+155,Oman,oman,13,192,1,1,5,34
+156,Others,others,0,696,0,6,0,40
+157,Pakistan,pakistan,221,1938,5,26,0,76
+158,Palestine,palestine,0,22,0,0,0,0
+159,Panama,panama,192,1181,6,30,5,9
+160,Papua New Guinea,papua-new-guinea,0,1,0,0,0,0
+161,Paraguay,paraguay,1,65,0,3,0,1
+162,Peru,peru,115,1065,6,30,341,394
+163,Philippines,philippines,538,2084,10,88,7,49
+164,Poland,poland,256,2311,2,33,0,7
+165,Portugal,portugal,1035,7443,20,160,0,43
+166,Puerto Rico,puerto-rico,0,0,1,1,0,0
+167,Qatar,qatar,88,781,1,2,11,62
+168,Republic of Ireland,republic-of-ireland,0,0,0,0,0,0
+169,Republic of Korea,korea-south,125,9786,4,162,180,5408
+170,Republic of Moldova,republic-of-moldova,0,0,0,0,0,0
+171,Republic of the Congo,republic-of-the-congo,0,0,0,0,0,0
+172,Reunion,reunion,2,47,0,0,0,0
+173,Romania,romania,136,2245,17,82,11,220
+174,Russia,russia,501,2337,8,17,55,121
+175,Russian Federation,russia,501,2337,8,17,55,121
+176,Rwanda,rwanda,5,75,0,0,0,0
+177,Saint Barthelemy,saint-barthelemy,0,1,0,0,0,0
+178,Saint Kitts and Nevis,saint-kitts-and-nevis,1,8,0,0,0,0
+179,Saint Lucia,saint-lucia,4,13,0,0,0,1
+180,Saint Martin,saint-martin,0,0,0,0,0,0
+181,Saint Vincent and the Grenadines,saint-vincent-and-the-grenadines,0,1,0,0,0,1
+182,San Marino,san-marino,6,236,1,26,0,13
+183,Saudi Arabia,saudi-arabia,110,1563,2,10,50,165
+184,Senegal,senegal,13,175,0,0,13,40
+185,Serbia,serbia,115,900,0,16,0,0
+186,Seychelles,seychelles,2,10,0,0,0,0
+187,Sierra Leone,sierra-leone,0,0,0,0,0,0
+188,Singapore,singapore,47,926,0,3,12,240
+189,Slovakia,slovakia,27,363,0,0,-4,3
+190,Slovenia,slovenia,46,802,4,15,0,10
+191,Somalia,somalia,2,5,0,0,1,1
+192,South Africa,south-africa,27,1353,2,5,0,31
+193,South Korea,korea-south,125,9786,4,162,180,5408
+194,Spain,spain,7967,95923,748,8464,2479,19259
+195,Sri Lanka,sri-lanka,21,143,0,2,2,17
+196,St. Martin,st.-martin,0,0,0,0,0,0
+197,Sudan,sudan,1,7,0,2,1,1
+198,Suriname,suriname,1,9,0,0,0,0
+199,Sweden,sweden,407,4435,34,180,0,16
+200,Switzerland,switzerland,683,16605,74,433,0,1823
+201,Syria,syria,0,10,0,2,0,0
+202,Taipei and environs,taipei-and-environs,0,0,0,0,0,0
+203,Taiwan,taiwan,16,322,0,5,0,39
+204,Taiwan*,taiwan,16,322,0,5,0,39
+205,Tanzania,tanzania,0,19,1,1,0,1
+206,Thailand,thailand,127,1651,1,10,113,342
+207,The Bahamas,the-bahamas,0,0,0,0,0,0
+208,The Gambia,the-gambia,0,0,0,0,0,0
+209,Timor-Leste,timor-leste,0,1,0,0,0,0
+210,Togo,togo,4,34,0,1,9,10
+211,Trinidad and Tobago,trinidad-and-tobago,5,87,0,3,0,1
+212,Tunisia,tunisia,82,394,2,10,0,3
+213,Turkey,turkey,2704,13531,46,214,81,243
+214,Uganda,uganda,11,44,0,0,0,0
+215,Ukraine,ukraine,97,645,4,17,2,10
+216,United Arab Emirates,united-arab-emirates,53,664,1,6,0,61
+217,United Kingdom,united-kingdom,3028,25481,382,1793,8,179
+218,Uruguay,uruguay,28,338,0,1,41,41
+219,US,us,26365,188172,895,3873,1380,7024
+220,Uzbekistan,uzbekistan,23,172,0,2,0,7
+221,Vatican City,vatican-city,0,1,0,0,0,0
+222,Venezuela,venezuela,0,135,0,3,0,39
+223,Viet Nam,vietnam,9,212,0,0,3,58
+224,Vietnam,vietnam,9,212,0,0,3,58
+225,West Bank and Gaza,west-bank-and-gaza,3,119,0,1,0,18
+226,Zambia,zambia,0,35,0,0,0,0
+227,Zimbabwe,zimbabwe,1,8,0,1,0,0

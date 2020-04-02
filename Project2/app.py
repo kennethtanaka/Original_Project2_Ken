@@ -30,6 +30,8 @@ Base.prepare(db.engine, reflect=True)
 # Save references to each table
 BTC = Base.classes.BTC
 DJI = Base.classes.DJI
+SNP = Base.classes.SNP
+NAS = Base.classes.Nasdaq
 US_Covid19 = Base.classes.US_Covid19
 STOCKS = Base.classes.stocks
 
@@ -59,6 +61,26 @@ def btc():
     # Return a list of the column names 
     return jsonify(df.to_dict("record"))
 
+@app.route("/snp")
+def snp():
+    
+    # Use Pandas to perform the sql query
+    query = db.session.query(SNP.id,SNP.datetime,SNP.open,SNP.high,SNP.low,SNP.close).all()
+    df = pd.DataFrame(query)
+
+    # Return a list of the column names 
+    return jsonify(df.to_dict("record"))
+
+@app.route("/nas")
+def nas():
+    
+    # Use Pandas to perform the sql query
+    query = db.session.query(NAS.id,NAS.datetime,NAS.open,NAS.high,NAS.low,NAS.close).all()
+    df = pd.DataFrame(query)
+
+    # Return a list of the column names 
+    return jsonify(df.to_dict("record"))
+   
 @app.route("/us")
 def us():
     """Return a list of sample names."""
