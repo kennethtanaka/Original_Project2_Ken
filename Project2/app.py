@@ -32,7 +32,10 @@ BTC = Base.classes.BTC
 DJI = Base.classes.DJI
 SNP = Base.classes.SNP
 NAS = Base.classes.Nasdaq
+#VIX = Base.classes.VIX
 US_Covid19 = Base.classes.US_Covid19
+IT_Covid19 = Base.classes.IT_Covid19
+CN_Covid19 = Base.classes.CN_Covid19
 STOCKS = Base.classes.stocks
 
 @app.route("/")
@@ -81,6 +84,27 @@ def nas():
     # Return a list of the column names 
     return jsonify(df.to_dict("record"))
    
+# @app.route("/vix")
+# def vix():
+    
+#     # Use Pandas to perform the sql query
+#     query = db.session.query(VIX.id,VIX.datetime,VIX.open,VIX.high,VIX.low,VIX.close).all()
+#     df = pd.DataFrame(query)
+
+#     # Return a list of the column names 
+#     return jsonify(df.to_dict("record"))
+
+@app.route("/stocks")
+def stocks():
+    """Return a list of sample names."""
+
+    # Use Pandas to perform the sql query
+    query = db.session.query(STOCKS.id,STOCKS.name,STOCKS.datetime,STOCKS.open,STOCKS.high,STOCKS.low,STOCKS.close).all()
+    df = pd.DataFrame(query)
+
+    # Return a list of the column names 
+    return jsonify(df.to_dict("record"))
+
 @app.route("/us")
 def us():
     """Return a list of sample names."""
@@ -92,12 +116,23 @@ def us():
     # Return a list of the column names 
     return jsonify(df.to_dict("record"))
 
-@app.route("/stocks")
-def stocks():
+@app.route("/it")
+def it():
     """Return a list of sample names."""
 
     # Use Pandas to perform the sql query
-    query = db.session.query(STOCKS.id,STOCKS.name,STOCKS.datetime,STOCKS.open,STOCKS.high,STOCKS.low,STOCKS.close).all()
+    query = db.session.query(IT_Covid19.id,IT_Covid19.Date,IT_Covid19.Cases).all()
+    df = pd.DataFrame(query)
+
+    # Return a list of the column names 
+    return jsonify(df.to_dict("record"))
+
+@app.route("/cn")
+def cn():
+    """Return a list of sample names."""
+
+    # Use Pandas to perform the sql query
+    query = db.session.query(CN_Covid19.id,CN_Covid19.Date,CN_Covid19.Cases).all()
     df = pd.DataFrame(query)
 
     # Return a list of the column names 

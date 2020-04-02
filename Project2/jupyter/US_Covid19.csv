@@ -69,3 +69,4 @@ id,Country,Province,Lat,Lon,Date,Cases,Status
 67,US,,0,0,2020-03-29T00:00:00Z,140886,confirmed
 68,US,,0,0,2020-03-30T00:00:00Z,161807,confirmed
 69,US,,0,0,2020-03-31T00:00:00Z,188172,confirmed
+70,US,,0,0,2020-04-01T00:00:00Z,215417,confirmed

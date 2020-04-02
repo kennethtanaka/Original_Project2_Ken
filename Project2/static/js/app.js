@@ -1,30 +1,47 @@
 var stocks;
+var covid;
+
 d3.json("/stocks").then(function (data) {
   stocks = data
-  console.log(data)
-  init()
+  d3.json("/us").then(function (coviddata){
+    covid = coviddata
+    console.log(covid)
+    init()
+  })
 });
+
 
 function buildCharts(stock) {
   var stockInfo = stocks.filter(row => row.name === stock)
   var stockClose = stockInfo.map(row => row.close)
   var stockDate = stockInfo.map(row => row.datetime)
-  console.log(stockDate)
+  var covidCases = covid.map(row => row.Cases)
+  var covidDate = covid.map(row => row.Date.split("T")[0])
+  // console.log(stockDate)
   var linetrace = {
     x: stockDate,
     y: stockClose,
-    type: 'scatter'
+    type: 'scatter',
+    
   };
 
   var bartrace = {
-    x: [0, 1, 2, 3, 4, 5],
-    y: [1, 0.5, 0.7, -1.2, 0.3, 0.4],
-    type: 'bar'
+    x: covidDate,
+    y: covidCases,
+    type: 'bar',
+    
   };
 
-  var data = [linetrace];
-  
-  Plotly.newPlot('plot', data);
+  var data = [linetrace, bartrace];
+
+  var layout = {
+    yaxis: {
+      autorange : true, 
+      range : [0,30000],
+      type : "linear"
+    }
+  }
+  Plotly.newPlot('plot', data,layout);
   
 }
 
@@ -78,8 +95,8 @@ function init() {
 // // called in HTML - pass information from drop down here 
 function optionChanged(newStock) {
   // Fetch new data each time a new sample is selected
-  //buildCharts(newStock);
-  animateChart(newStock)
+  buildCharts(newStock);
+  //animateChart(newStock)
 }
 
   // // Initialize the dashboard
