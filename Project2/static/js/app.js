@@ -21,6 +21,7 @@ function buildCharts(stock) {
   var linetrace = {
     x: stockDate,
     y: stockClose,
+    name: 'Index',
     type: 'scatter',
     
   };
@@ -28,6 +29,8 @@ function buildCharts(stock) {
   var bartrace = {
     x: covidDate,
     y: covidCases,
+    name : 'US Covid cases',
+    yaxis: 'y2',
     type: 'bar',
     
   };
@@ -35,9 +38,13 @@ function buildCharts(stock) {
   var data = [linetrace, bartrace];
 
   var layout = {
-    yaxis: {
+    title: 'US Covid19 cases and US Stock Indices',
+    yaxis: {title: 'Stock Index'},
+    yaxis2: {
+      title: '# of Covid19 cases',
+      overlaying: 'y',
+      side: 'right',
       autorange : true, 
-      range : [0,30000],
       type : "linear"
     }
   }
