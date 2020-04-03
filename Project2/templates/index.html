@@ -10,30 +10,14 @@
 </head>
 
 <body>
-  <div id="main">
-    <!-- the hello world app will be in here! -->
-  </div>
 
-  
-    <form class="form-inline">
-      <div class="form-group">
-        <!-- <label for="stockInput">Stock</label>
-        <input type="text" class="form-control" id="stockInput" placeholder="Enter a stock">
-      </div>
-      <button id="submit" type="submit" class="btn btn-default">Plot Stock</button>
-    </form> -->
-  <select id="sel-stock" onchange="optionChanged (this.value)"></select>
+    <select id="sel-stock" onchange="optionChanged (this.value)"></select>
     <div id="plot"></div>
    
-  
 
-  <!-- bundle all the scripts! thanks to webpack -->
-  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
-  <!-- <script src="{{ url_for('static', filename='js/plot.js') }}"></script> -->
+  
 </body>
-
 </html>

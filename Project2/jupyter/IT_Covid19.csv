@@ -61,3 +61,4 @@ id,Country,Province,Lat,Lon,Date,Cases,Status
 59,Italy,,0,0,2020-03-30T00:00:00Z,101739,confirmed
 60,Italy,,0,0,2020-03-31T00:00:00Z,105792,confirmed
 61,Italy,,0,0,2020-04-01T00:00:00Z,110574,confirmed
+62,Italy,,0,0,2020-04-02T00:00:00Z,115242,confirmed

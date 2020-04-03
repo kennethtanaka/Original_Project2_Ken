@@ -2,9 +2,10 @@ var stocks;
 var covid;
 
 d3.json("/stocks").then(function (data) {
-  stocks = data
-  d3.json("/us").then(function (coviddata){
-    covid = coviddata
+  stocks = data.filter(obj => !obj.datetime.includes("-01-"))
+  console.log(stocks)
+  d3.json("/us").then(function (coviddata) {
+    covid = coviddata.filter(obj => !obj.Date.split("T")[0].includes("-01-"))
     console.log(covid)
     init()
   })
@@ -23,54 +24,61 @@ function buildCharts(stock) {
     y: stockClose,
     name: 'Index',
     type: 'scatter',
-    
+    marker: {
+      color: 'rgb(0,0,255)'
+    }
+
   };
 
   var bartrace = {
     x: covidDate,
     y: covidCases,
-    name : 'US Covid cases',
+    name: 'US Covid cases',
     yaxis: 'y2',
     type: 'bar',
-    
+    marker: {
+      color: 'rgb(255,51,051)'
+    }
+
   };
 
   var data = [linetrace, bartrace];
 
   var layout = {
     title: 'US Covid19 cases and US Stock Indices',
-    yaxis: {title: 'Stock Index'},
+    yaxis: { title: 'Stock Index' },
     yaxis2: {
       title: '# of Covid19 cases',
       overlaying: 'y',
       side: 'right',
-      autorange : true, 
-      type : "linear"
+      autorange: true,
+      type: "linear"
     }
+
   }
-  Plotly.newPlot('plot', data,layout);
-  
+  Plotly.newPlot('plot', data, layout);
+
 }
 
-function animateChart (stock){
+function animateChart(stock) {
   var stockInfo = stocks.filter(row => row.name === stock)
   var stockClose = stockInfo.map(row => row.close)
   var animationData = {
-    data : [{y: stockClose}],
-  
+    data: [{ y: stockClose }],
+
   }
   var transition = {
     transition: {
       duration: 500,
       easing: "cubic-in-out",
     },
-  
-   frame: {
+
+    frame: {
       duration: 500,
     }
   }
-    Plotly.animate('plot', animationData, transition);
-  }
+  Plotly.animate('plot', animationData, transition);
+}
 
 // populate drop down
 function init() {
@@ -95,8 +103,6 @@ function init() {
   // Use the first sample from the list to build the initial plots
   const firstStock = stockNames[0];
   buildCharts(firstStock);
-
-
 }
 
 // // called in HTML - pass information from drop down here 
@@ -106,5 +112,4 @@ function optionChanged(newStock) {
   //animateChart(newStock)
 }
 
-  // // Initialize the dashboard
-  // init();
+ 
