@@ -3,10 +3,10 @@ var covid;
 
 d3.json("/stocks").then(function (data) {
   stocks = data.filter(obj => !obj.datetime.includes("-01-"))
-  console.log(stocks)
+  // console.log(stocks)
   d3.json("/us").then(function (coviddata) {
     covid = coviddata.filter(obj => !obj.Date.split("T")[0].includes("-01-"))
-    console.log(covid)
+    // console.log(covid)
     init()
   })
 });
