@@ -53,15 +53,3 @@ Conclusion:
     3. When VIX values are greater than 30, this is generally linked to volatility resulting from increased uncertainty, risk and investors fear. VIX values below 20 correspond to stable, stress free periods. The daily percent change graph supports this as the volatility remains low in Jan and Feb but experiences high volatility in March as the rapidly increasing number US Covid cases begin to impact the market.
     
     The efficient market hypothesis states that all known information is already factored into the price of securities. From what we have seen in our analysis, we believe that is true as the market began to decline a month before its worst single day drop. When the markets begin its ascent, it could be an early indicator that the number of US Covid cases is starting to "flatten". However, a new factor has emerged that could prevent the markets from returning to levels seen at the start of the year : unemployment. As a result of Covid19 and the shelter in place across the country, a record-smashing 6.6 million unemployment claims were filed in one week.
-
-
-
-
-
-
-
-Direct Data -- US Aid Trends Per Country: If someone is doing a study on US Aid to a particular country/countries our table has amalgamated the total aid of each year per country to easily allow comparisons and visualizations.
-
-Health and Social Impact -- World Health and/or Prosperity: Using the amount of aid in comparison to life expectancy one could search for correlations between aid provided over certain time periods and see if it has improved life expectancy, reduced child mortality rates, decreased measles infections (health) or increased the level of schooling (social).
-
-Epidemiology/War/Natural Disaster-- Aid Spikes: Highly specific uses can also take advantage of this table. For example: an epidemiologist or enthusiast can use the table to find aid spikes in countries and compare it to years of major disease outbreaks, to times of war or times of a natural disaster to see if there were aid spikes in those years and see how health and social levels were impacted during and following those major events.`
