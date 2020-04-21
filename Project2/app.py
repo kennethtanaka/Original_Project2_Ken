@@ -32,7 +32,6 @@ BTC = Base.classes.BTC
 DJI = Base.classes.DJI
 SNP = Base.classes.SNP
 NAS = Base.classes.Nasdaq
-#VIX = Base.classes.VIX
 US_Covid19 = Base.classes.US_Covid19
 IT_Covid19 = Base.classes.IT_Covid19
 CN_Covid19 = Base.classes.CN_Covid19
@@ -84,16 +83,6 @@ def nas():
     # Return a list of the column names 
     return jsonify(df.to_dict("record"))
    
-# @app.route("/vix")
-# def vix():
-    
-#     # Use Pandas to perform the sql query
-#     query = db.session.query(VIX.id,VIX.datetime,VIX.open,VIX.high,VIX.low,VIX.close).all()
-#     df = pd.DataFrame(query)
-
-#     # Return a list of the column names 
-#     return jsonify(df.to_dict("record"))
-
 @app.route("/stocks")
 def stocks():
     """Return a list of sample names."""
