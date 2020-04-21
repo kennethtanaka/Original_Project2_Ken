@@ -1,6 +1,6 @@
 var stocks;
 var covid;
-
+console.log("hello Ken");
 d3.json("/stocks").then(function (data) {
   stocks = data.filter(obj => !obj.datetime.includes("-01-"))
   // console.log(stocks)
